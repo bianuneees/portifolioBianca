@@ -1,9 +1,8 @@
 header{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 .navbar{
     flex:1;
     width: 100%;
@@ -13,7 +12,7 @@ header{
 }
 .logo img{
     width: 3.2rem;
-    height:3.2rem;
+    height: 3.2rem;
 }
 .menu-opener{
     display: flex;
@@ -21,14 +20,14 @@ header{
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
-    width:3.2rem;
-    height:3.2rem;
-    cursor:pointer;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
 }
 .menu-opener span{
     display: block;
-    width:2rem;
-    height:0.1rem;
+    width: 2rem;
+    height: 0.1rem;
     background-color: var(--primary);
 }
 header nav{
@@ -37,20 +36,18 @@ header nav{
     align-items: center;
     gap: 2rem;
     padding: 2rem;
-
 }
 header nav a{
     font-size: 1.4rem;
     text-decoration: none;
-    color: var (--primary);
+    color: var(--primary);
 }
 header nav.opened{
     display: flex;
-
 }
 @media(width>600px){
     header{
-        flex-direction:row;
+        flex-direction: row;
     }
     .menu-opener{
         display: none;
